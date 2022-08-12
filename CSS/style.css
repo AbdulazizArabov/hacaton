@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,600;0,700;1,400;1,800&family=Poppins:ital,wght@0,100;0,500;1,100&display=swap');
+
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: inherit;
+    font-size: inherit;
+}
+
+html,
+body {
+    height: 100%;
+    line-height: 1;
+    font-size: 14px;
+    color: #262b26;
+    background-color: #fafafa;
+    font-weight: 500;
+    font-family: 'Montserrat';
+}
+
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    background-color: #121617;
+}
+
+.container {
+    max-width: 1046px;
+    padding: 0px 15px;
+    margin: 0px auto;
+    box-sizing: content-box;
+}
+
+* {
+    margin: 0px;
+}
+
+body {
+    color: white;
+    background-color: #121617;
+}
+
+.premium-menu-title {
+    width: 100%;
+    padding-bottom: 50px;
+    font-size: 36px;
+    text-align: center;
+}
+
+.premium-menu-flex1 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box-1 {
+    text-align: center;
+    width: 20%;
+}
+
+.basket {
+    margin-left: 175px;
+    margin-top: -13px;
+    display: flex !important;
+    justify-content: center !important;
+    width: 25px;
+    height: 25px;
+    background-image: url("../image/Rectangle.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.premium-menu-flex2 {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.premium-menu {
+    padding-top: 40px;
+}
+
+.discount {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10%;
+    padding-top: 190px;
+    margin-bottom:100px;
+}
+
+.but {
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+    background-color: orangered;
+}
+
+.discount-right {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    /* text-align: center; */
+     font-size:20px;
+    width:20%;
+    text-align: center  ;
+}
+
+
+@media screen and (max-width:800px){
+
+}
