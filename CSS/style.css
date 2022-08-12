@@ -125,6 +125,9 @@ body {
     background-color: orangered;
 }
 
+.discount-left img{
+    width: 75%;
+}
 .discount-right {
     display:flex;
     flex-direction: column;
@@ -139,5 +142,17 @@ body {
 @media screen and (max-width:800px){
     .box-1{
      flex-wrap:wrap;
+    }
+    .discount{
+        padding-top:25px;
+        margin-bottom:25px;
+        flex-wrap:wrap;
+    }
+    .discount-left{
+        display:none;
+    }
+    .discount-right{
+        width: 200px !important;
+        font-size:15px;
     }
 }
